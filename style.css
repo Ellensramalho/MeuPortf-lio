@@ -1,0 +1,23 @@
+body{
+    background-color: #ADD8E6;
+}
+h1{
+    color: #BC8F8F;
+    text-align: center;
+}
+a{
+    color: #BC8F8F;
+}
+img{
+    width: auto;
+    height: 450px;
+    border-radius: 70px 70px 100px 100px;
+    float:right;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 50px 50px 50px 50px;
+    height: 600px;
+}
