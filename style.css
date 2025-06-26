@@ -1,5 +1,5 @@
 body{
-    background-color: #85a6b1;
+    background-color: #d2e6fc;
 }
 a{
     color: #BC8F8F;
@@ -11,7 +11,7 @@ a{
   padding: 10px;
 }
 .Button{
-  background-color:#a775c4;
+  background-color:#8f6ecc;
   color: rgb(240, 226, 226);
   padding: 10px 20px;
   border: none;
@@ -21,21 +21,23 @@ a{
 
 }
 .Button:hover{
-    background-color: #67228f;
+    background-color: #816bbe;
 }
 .foto{
     position: absolute;
     right: 40px;
-    top: 150px; 
-    height: 500px;
-    border-radius: 70px 70px 100px 100px;
+    top: 115px; 
+    height: 600px;
+    border-radius: 90px 90px 100px 100px;
+    border: 5px solid #583ca3;
+    
 }
 
 .container{
     background-color: rgb(211, 225, 240);
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 30px 30px 30px 30px;
     height: 800px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .Fundo {
   position: relative;
@@ -47,8 +49,47 @@ a{
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 30px 30px 30px 30px;
 }
+.Principal{
+  position: absolute;
+  top: 360px;
+  left: 35%;
+  transform: translateX(-50%);
+  color:#18588d ;
+  padding: 8px 16px;
+  font-size: 130px;
+  font-weight:bold;
+  font-family: 'Pirata One', fantasy;
+    
+}
+
+.Cientista{
+  position: absolute;
+  top: 690px;
+  left: 48%;
+  transform: translateX(-50%);
+  color: #4B0082;
+  padding: 8px 16px;
+  font-size: 35px;
+  font-weight:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Portfolio{
+  position: absolute;
+  top: 220px;
+  left: 20%;
+  transform: translateX(-50%);
+  color: #4B0082;
+  padding: 8px 16px;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
 
 
 
