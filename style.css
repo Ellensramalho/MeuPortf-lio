@@ -66,7 +66,7 @@ a{
 
 .Cientista{
   position: absolute;
-  top: 690px;
+  top: 735px;
   left: 48%;
   transform: translateX(-50%);
   color: #8f6ecc;
@@ -135,4 +135,64 @@ a{
 
 }
 
+.C3{
+  margin-top: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  gap: 10px;
+}
 
+.formacao1{
+  height: 700px;
+  width: 500px;
+  background-color:#eeebf1 ;
+  border-radius: 40px;
+
+}
+.fotoqa{
+  position: absolute;
+  left: 0px;
+  margin-top: 2%; 
+  height: 500px;
+}
+.formacao2{
+  height: 700px;
+  width: 500px;
+  background-color:#eeebf1;
+  border-radius: 40px;
+
+}
+.fotoFrontEnd{
+  position: absolute;
+  left: 470px;
+  margin-top: 2%; 
+  height: 500px;
+}
+
+.formacao3{
+  height: 700px;
+  width: 500px;
+  background-color:#eeebf1 ;
+  border-radius: 40px;
+}
+
+.fotoBackEnd{
+  position: absolute;
+  left: 52%;
+  margin-top: 4%; 
+  height: 400px;
+}
+.formacao4{
+  height: 700px;
+  width: 500px;
+  background-color:#eeebf1;
+  border-radius: 40px;
+}
+
+.fotoDesign{
+  position: absolute;
+  left: 76%;
+  margin-top: 6%; 
+  height: 380px;
+}
