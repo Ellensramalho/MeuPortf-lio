@@ -90,14 +90,14 @@ a{
 }
 .texto{
   position: absolute;
-  left: 59%;
+  left: 58%;
   transform: translateX(-50%);
   color:#18588d ;
   padding: 8px 16px;
   font-size: 70px;
   font-weight:bold;
   margin-top: 7%;
-  font-family: "Courier New", monospace;
+  font-family:"Poppins", sans-serif
 
 }
 
@@ -146,9 +146,12 @@ a{
 .formacao1{
   height: 700px;
   width: 500px;
-  background-color:#eeebf1 ;
+  background-color: #e9f0fa ;
   border-radius: 40px;
 
+}
+.formacao1:hover{
+  background-color:#ddecfc;
 }
 .fotoqa{
   position: absolute;
@@ -159,10 +162,14 @@ a{
 .formacao2{
   height: 700px;
   width: 500px;
-  background-color:#eeebf1;
+  background-color:#e9f0fa;
   border-radius: 40px;
 
 }
+.formacao2:hover{
+  background-color:#ddecfc;
+}
+
 .fotoFrontEnd{
   position: absolute;
   left: 470px;
@@ -173,10 +180,12 @@ a{
 .formacao3{
   height: 700px;
   width: 500px;
-  background-color:#eeebf1 ;
+  background-color:#e9f0fa;
   border-radius: 40px;
 }
-
+.formacao3:hover{
+  background-color:#ddecfc;
+}
 .fotoBackEnd{
   position: absolute;
   left: 52%;
@@ -186,13 +195,98 @@ a{
 .formacao4{
   height: 700px;
   width: 500px;
-  background-color:#eeebf1;
+  background-color:#e9f0fa;
   border-radius: 40px;
 }
-
+.formacao4:hover{
+  background-color:#ddecfc;
+}
 .fotoDesign{
   position: absolute;
   left: 76%;
   margin-top: 6%; 
   height: 380px;
 }
+
+.Quality{
+  position: absolute;
+  margin-top: 24%;
+  left: 8%;
+  transform: translateX(-50%);
+  color: #5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+.Assurance{
+  position: absolute;
+  margin-top: 27%;
+  left: 15%;
+  transform: translateX(-50%);
+  color: #5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+.Front{
+  position: absolute;
+  margin-top: 24%;
+  left: 36%;
+  transform: translateX(-50%);
+  color: #5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+.End{
+  position: absolute;
+  margin-top: 27%;
+  left: 40%;
+  transform: translateX(-50%);
+  color: #5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+.Back{
+  position: absolute;
+  margin-top: 24%;
+  left: 61%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+.End2{
+  position: absolute;
+  margin-top: 27%;
+  left: 65%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+.Design{
+  position: absolute;
+  margin-top: 24%;
+  left: 85%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.UX{
+  position: absolute;
+  margin-top: 27%;
+  left: 90%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 50px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+
