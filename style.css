@@ -1,5 +1,5 @@
 body{
-    background-color: #d2e6fc;
+    background-color: #f8f9fa;
 }
 a{
     color: #BC8F8F;
@@ -21,7 +21,7 @@ a{
 
 }
 .Button:hover{
-    background-color: #816bbe;
+    background-color: #593ea3;
 }
 .foto{
     position: absolute;
@@ -291,11 +291,11 @@ a{
 }
 
 .Habilidades{
-  background-color: #ece5e5;
-  height: 900px;
+  background-color: #cbdcf1;
+  height: 1000px;
   margin-top: 18px;
   display: flex;
-  gap: 30px; 
+
 }
 .Tecnologias{
   position: absolute;
@@ -312,18 +312,198 @@ a{
   margin-top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  color:#5c6bc0;
+  color:#0d0d0e;
   font-size: 20px;
   font-weight:bold;
   font-family: "Poppins", sans-serif;
-  max-width: 800px;
+  max-width: 1200px;
 }
-
+.principal{
+  max-width: 1600px; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20%;
+  align-items: start;
+}
 .logos {
   position: relative;
-  margin-top: 20%;
-  height: 150px;
+  margin-top: 0;
+  height: 170px;
   border-radius: 30px;
-  left: 10%;
+  left: 15%;
+  padding: 5px;
 }
 
+.logos:hover{
+  background-color: #39289b;
+}
+.EventosTech{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  gap: 10px;
+}
+.Eventos{
+  position: relative;
+  margin-top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 40px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.mdc{
+  background-color: #cbdcf1;
+  height: 700px;
+  margin-top: 200px;
+  display: flex;
+  width: 26%;
+  border-radius: 30px;
+}
+
+.fotoMdc{
+  position: absolute;
+  left: 65px;
+  margin-top:3%; 
+  height: 450px;
+  border-radius: 30px;
+}
+
+.Evento1{
+  position: absolute;
+  margin-top:28%;
+  left: 13%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 40px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.Tech{
+  background-color: #cbdcf1;
+  height: 800px;
+  margin-top: 10px;
+  display: flex;
+  width: 26%;
+  border-radius: 30px;
+}
+
+.tech1{
+  position: absolute;
+  left: 280px;
+  margin-top:2%; 
+  height: 350px;
+  border-radius: 30px;
+}
+
+.tech2{
+  position: absolute;
+  left: 28px;
+  margin-top:2%; 
+  height: 320px;
+  border-radius: 30px;
+}
+.tech3{
+  position: absolute;
+  left: 52px;
+  margin-top:21%; 
+  height: 250px;
+  border-radius: 30px;
+}
+
+.Evento2{
+  position: absolute;
+  margin-top:35%;
+  left: 13%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 40px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.Claro{
+  background-color: #cbdcf1;
+  height: 800px;
+  margin-top: 10px;
+  display: flex;
+  width: 26%;
+  border-radius: 30px;
+}
+
+.claro1{
+  position: absolute;
+  left: 250px;
+  margin-top:2%; 
+  height: 300px;
+  border-radius: 30px;
+}
+
+.claro2{
+  position: absolute;
+  left: 28px;
+  margin-top:17%; 
+  height: 300px;
+  border-radius: 30px;
+}
+
+.Evento3{
+  position: absolute;
+  margin-top:35%;
+  left: 13%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 40px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.MulherTech{
+  background-color: #cbdcf1;
+  height: 800px;
+  margin-top: 10px;
+  display: flex;
+  width: 26%;
+  border-radius: 30px;
+}
+
+.mulher1{
+  position: absolute;
+  left: 60px;
+  margin-top:2%; 
+  height: 280px;
+  border-radius: 30px;
+}
+
+.mulher2{
+  position: absolute;
+  left: 260px;
+  margin-top:2%; 
+  height: 280px;
+  border-radius: 30px;
+
+}
+
+.mulher3{
+  position: absolute;
+  left: 42px;
+  margin-top: 18%; 
+  height: 280px;
+  border-radius: 30px;
+}
+
+.Evento4{
+  position: absolute;
+  margin-top:35%;
+  left: 13%;
+  transform: translateX(-50%);
+  color:#5c6bc0;
+  font-size: 40px;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif;
+}
