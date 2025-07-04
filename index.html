@@ -5,100 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ellen Ramalho</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="fotos/laptop_9594553.png">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-
-    <div class ="Botoes">
-        <button class ="Button">Sobre mim</button>
-        <button class ="Button">Meu projetos</button>
-        <button class ="Button">Minhas habilidades</button>
-        <button class ="Button">Minhas experiências</button>
-        <button class ="Button">Eventos</button>
-    </div>
+</head>
 <body>
-<div class ="container">
-    <div class ="Fundo">
-        <img src="fotos/Header.jpg" class ="Header">
-        <img src="fotos/foto.png" class="foto">
+    <div class="Botoes">
+        <button class="Button" onclick="document.getElementById('SM').scrollIntoView({ behavior: 'smooth' })">Sobre mim</button>
+        <button class="Button" onclick="document.getElementById('MP').scrollIntoView({ behavior: 'smooth' })">Meus projetos</button>
+        <button class="Button" onclick="document.getElementById('H').scrollIntoView({ behavior: 'smooth' })">Minhas habilidades</button>
+        <button class="Button">Minhas experiências</button>
+        <button class="Button" onclick="document.getElementById('ETech').scrollIntoView({ behavior: 'smooth' })">Eventos</button>
+        <button class="Button">Meus certificados</button>
     </div>
-    <div class ="Principal">Ellen Ramalho</div>
-    <div class ="Cientista">Cientista da computação</div>
-    <div class ="Portfolio">Portfólio</div>
-    </div>
-</div>
-<div class = "C2">
-    <h1 class ="texto">Sobre mim</h1>
-    <img class="foto2" src="fotos/foto2.png">
-    <p class ="p">Meu nome é <strong class="Nome" style="color: #8f6ecc">Ellen, sou cientista da computação</strong> pela Universidade Estadual da Paraíba. Gosto de design, gosto de desenvolvimento de software e de ver como os códigos podem criar coisas incríveis. Tenho experiência profissional na área de qualidade de software e, academicamente, atuei com desenvolvimento de sistemas.</p>
-    <p class = "p1">Além da tecnologia, gosto de ler, assistir séries, filmes e reality shows, estar com minha família, cuidar dos animais e ter meu tempo com Deus. São essas coisas que me completam e me ajudam a manter o equilíbrio entre o que faço e quem sou.</p>
-</div>
-<div class ="C3">
-    <div class ="formacao1">
-        <img class ="fotoqa" src="fotos/QA.png">
-        <h1 class="Quality">Quality</h1>
-        <h1 class="Assurance">Assurance</h1>
-    </div> 
-    <div class ="formacao2">
-        <img class ="fotoFrontEnd" src ="fotos/FrontEnd.png">
-        <h1 class="Front">Front</h1>
-        <h1 class="End">End</h1>
-    </div>
-    <div class ="formacao3">
-        <img class ="fotoBackEnd" src = "fotos/BackEnd.png">
-        <h1 class="Back">Back</h1>
-        <h1 class ="End2">End</h1>
-        
-    </div>
-    <div class ="formacao4">
-        <img class = "fotoDesign" src = "fotos/Design.png">
-        <h1 class="Design">Design</h1>
-        <h1 class="UX">UX/UI</h1>
-    </div>
-</div>
-<div class = "Habilidades">
-    <h1 class = "Tecnologias">MINHAS HABILIDADES PROFISSIONAIS</h1>
-    <h2 class = "Conhecimentos">Tecnologias com as quais possuo conhecimentos e habilidades para desenvolvimento de projetos, incluindo algumas que ainda estão em fase de aprendizado.</h2>
-    <div class="principal">
-    <img class = "logos" src ="fotos/py.webp">
-    <img class = "logos" src ="fotos/C.png">
-    <img class = "logos" src="fotos/js.jpg">
-    <img class = "logos" src ="fotos/azure.png">
-    <img class ="logos" src ="fotos/figma.avif">
-    <img class ="logos" src = "fotos/K6.webp">
-    <img class = "logos" src ="fotos/postman.png">
-    <img class = "logos" src = "fotos/cy.jpg">
-    <img class = "logos" src ="fotos/html.png">
-    <img class = "logos" src ="fotos/css.jpg">
-    <img class = "logos" src ="fotos/ps.png">
-    <img class = "logos" src ="fotos/sql.png">
-    <img class = "logos" src ="fotos/git.png">
-    <img class = "logos" src = "fotos/jm.png">
-    </div>
-    </div>
-    <div class ="EventosTech">
-        <h1 class = "Eventos">PARTICIPAÇÕES EM EVENTOS TECH</h1>
-    </div>
-    <div class = "mdc">
-        <img class ="fotoMdc" src ="fotos/mdc.jpeg">
-         <h1 class ="Evento1">MDC</h1>
-    </div>
-    <div class = "Tech">
-        <img class = "tech1" src = "fotos/techWoman1.jpeg">
-        <img class = "tech2" src = "fotos/techWoman2.jpeg">
-        <img class = "tech3" src = "fotos/techWoman3.jpeg">
-        <h1 class = "Evento2">TECH WOMAN</h1>
-    </div>
-    <div class = "Claro">
-        <img class = "claro1" src ="fotos/claro1.jpeg">
-        <img class = "claro2" src ="fotos/claro2.jpeg">
-        <h1 class = "Evento3">CAMPUS MOBILE</h1>
-    </div>
-    <div class="MulherTech">
-        <img class = "mulher1" src ="fotos/mulher1.jpeg">
-        <img class = "mulher2" src = "fotos/mulher2.jpeg">
-        <img class = "mulher3" src = "fotos/mulher3.jpeg">
-        <h1 class = "Evento4">MULHER TECH</h1>
 
+    <div class="container">
+        <div class="Fundo">
+            <img src="fotos/Header.jpg" class="Header" alt="Header Image">
+            <img src="fotos/foto.png" class="foto" alt="Profile Picture">
+        </div>
+        <div class="Principal">Ellen Ramalho</div>
+        <div class="Cientista">Cientista da Computação</div>
+        <div class="Portfolio">Portfólio</div>
     </div>
-</div>
-    </body>
+
+    <div class="C2" id="SM">
+        <h1 class="texto">Sobre mim</h1>
+        <img class="foto2" src="fotos/foto2.png" alt="Second Profile Picture">
+        <p class="p">Meu nome é <strong class="Nome" style="color: #8f6ecc">Ellen, sou cientista da computação</strong> pela Universidade Estadual da Paraíba. Gosto de design, gosto de desenvolvimento de software e de ver como os códigos podem criar coisas incríveis. Tenho experiência profissional na área de qualidade de software e, academicamente, atuei com desenvolvimento de sistemas.</p>
+        <p class="p1">Além da tecnologia, gosto de ler, assistir séries, filmes e reality shows, estar com minha família, cuidar dos animais e ter meu tempo com Deus. São essas coisas que me completam e me ajudam a manter o equilíbrio entre o que faço e quem sou.</p>
+    </div>
+
+    <div class="C3" id="MP">
+        <div class="formacao1">
+            <img class="fotoqa" src="fotos/QA.png" alt="Quality Assurance Icon">
+            <h1 class="Quality">Quality</h1>
+            <h1 class="Assurance">Assurance</h1>
+        </div>
+        <div class="formacao2">
+            <img class="fotoFrontEnd" src="fotos/FrontEnd.png" alt="Front End Icon">
+            <h1 class="Front">Front</h1>
+            <h1 class="End">End</h1>
+        </div>
+        <div class="formacao3">
+            <img class="fotoBackEnd" src="fotos/BackEnd.png" alt="Back End Icon">
+            <h1 class="Back">Back</h1>
+            <h1 class="End2">End</h1>
+        </div>
+        <div class="formacao4">
+            <img class="fotoDesign" src="fotos/Design.png" alt="Design Icon">
+            <h1 class="Design">Design</h1>
+            <h1 class="UX">UX/UI</h1>
+        </div>
+    </div>
+
+    <div class="Habilidades" id="H">
+        <h1 class="Tecnologias">MINHAS HABILIDADES PROFISSIONAIS</h1>
+        <h2 class="Conhecimentos">Tecnologias com as quais possuo conhecimentos e habilidades para desenvolvimento de projetos, incluindo algumas que ainda estão em fase de aprendizado.</h2>
+        <div class="principal">
+            <img class="logos" src="fotos/py.webp" alt="Python Logo">
+            <img class="logos" src="fotos/C.png" alt="C Language Logo">
+            <img class="logos" src="fotos/js.jpg" alt="JavaScript Logo">
+            <img class="logos" src="fotos/azure.png" alt="Azure Logo">
+            <img class="logos" src="fotos/figma.avif" alt="Figma Logo">
+            <img class="logos" src="fotos/K6.webp" alt="K6 Logo">
+            <img class="logos" src="fotos/postman.png" alt="Postman Logo">
+            <img class="logos" src="fotos/cy.jpg" alt="Cypress Logo">
+            <img class="logos" src="fotos/html.png" alt="HTML Logo">
+            <img class="logos" src="fotos/css.jpg" alt="CSS Logo">
+            <img class="logos" src="fotos/ps.png" alt="Photoshop Logo">
+            <img class="logos" src="fotos/sql.png" alt="SQL Logo">
+            <img class="logos" src="fotos/git.png" alt="Git Logo">
+            <img class="logos" src="fotos/jm.png" alt="JMeter Logo">
+        </div>
+    </div>
+
+    <div id="ETech">
+        <h1 class="Eventos">PARTICIPAÇÕES EM EVENTOS TECH</h1>
+        <div class="EventosContainer"> <div class="mdc">
+                <img class="fotoMdc" src="fotos/mdc.jpeg" alt="MDC Event">
+                <h1 class="Evento1">MDC<br> Mulheres da Computação</h1>
+            </div>
+            <div class="Tech">
+                <img class="tech1" src="fotos/techWoman1.jpeg" alt="Tech Woman Event 1">
+                <img class="tech2" src="fotos/techWoman2.jpeg" alt="Tech Woman Event 2">
+                <img class="tech3" src="fotos/techWoman3.jpeg" alt="Tech Woman Event 3">
+                <h1 class="Evento2">TECH WOMAN</h1>
+            </div>
+            <div class="Claro">
+                <img class="claro1" src="fotos/claro1.jpeg" alt="Claro Event 1">
+                <img class="claro2" src="fotos/claro2.jpeg" alt="Claro Event 2">
+                <h1 class="Evento3">CAMPUS MOBILE</h1>
+            </div>
+            <div class="MulherTech">
+                <img class="mulher1" src="fotos/mulher1.jpeg" alt="Mulher Tech Event 1">
+                <img class="mulher2" src="fotos/mulher2.jpeg" alt="Mulher Tech Event 2">
+                <img class="mulher3" src="fotos/mulher3.jpeg" alt="Mulher Tech Event 3">
+                <h1 class="Evento4">MULHER TECH</h1>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

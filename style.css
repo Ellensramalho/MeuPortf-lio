@@ -1,5 +1,9 @@
 body{
     background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
 }
 a{
     color: #BC8F8F;
@@ -56,7 +60,7 @@ a{
   top: 360px;
   left: 35%;
   transform: translateX(-50%);
-  color:#18588d ;
+  color:#18588d;
   padding: 8px 16px;
   font-size: 130px;
   font-weight:bold;
@@ -338,172 +342,190 @@ a{
 .logos:hover{
   background-color: #39289b;
 }
-.EventosTech{
-  margin-top: 3%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; 
-  gap: 10px;
-}
+
 .Eventos{
   position: relative;
-  margin-top: 5%;
+  margin-top: 4%;
   left: 50%;
   transform: translateX(-50%);
   color:#5c6bc0;
   font-size: 40px;
   font-weight:bold;
   font-family: "Poppins", sans-serif;
+  max-width: 800px;
 }
 
 .mdc{
-  background-color: #cbdcf1;
+  background-color: #ffffff;
   height: 700px;
-  margin-top: 200px;
+  margin-top: 90px;
   display: flex;
-  width: 26%;
+  width: 24%;
   border-radius: 30px;
+  left: 70%;
+  border: 2px solid #583ca3;
+}
+
+.mdc:hover{
+  background-color: #d1c9e7;
 }
 
 .fotoMdc{
-  position: absolute;
-  left: 65px;
-  margin-top:3%; 
-  height: 450px;
+  position: relative;
+  left: 62px;
+  margin-top:20%; 
+  height: 430px;
   border-radius: 30px;
 }
 
 .Evento1{
-  position: absolute;
-  margin-top:28%;
-  left: 13%;
+  position: relative;
+  margin-top:550px;
+  left: -110px;
   transform: translateX(-50%);
-  color:#5c6bc0;
-  font-size: 40px;
+  color: #18588d;
+  font-size: 30px;
   font-weight:bold;
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  
 }
 
 .Tech{
-  background-color: #cbdcf1;
-  height: 800px;
-  margin-top: 10px;
-  display: flex;
-  width: 26%;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 700px;
+  width:24%;
+  margin-top: -37.2%;
+  left: 470px;
   border-radius: 30px;
+  border: 2px solid #583ca3;
 }
 
+.Tech:hover{
+  background-color:#d1c9e7;
+}
 .tech1{
-  position: absolute;
-  left: 280px;
-  margin-top:2%; 
-  height: 350px;
+  position: relative;
+  left: 260px;
+  margin-top:4%; 
+  height: 300px;
   border-radius: 30px;
 }
 
 .tech2{
-  position: absolute;
-  left: 28px;
+  position: relative;
+  left: -150px;
   margin-top:2%; 
-  height: 320px;
+  height: 280px;
   border-radius: 30px;
 }
 .tech3{
-  position: absolute;
-  left: 52px;
-  margin-top:21%; 
-  height: 250px;
+  position: relative;
+  left: 78px;
+  margin-top:2%; 
+  height: 200px;
   border-radius: 30px;
 }
 
 .Evento2{
-  position: absolute;
-  margin-top:35%;
-  left: 13%;
+  position: relative;
+  margin-top:50px;
+  left: 76%;
   transform: translateX(-50%);
-  color:#5c6bc0;
-  font-size: 40px;
+  color:#18588d;
+  font-size: 30px;
   font-weight:bold;
   font-family: "Poppins", sans-serif;
 }
 
 .Claro{
-  background-color: #cbdcf1;
-  height: 800px;
-  margin-top: 10px;
-  display: flex;
-  width: 26%;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  height: 700px;
+  width:24%;
+  margin-top: -37.2%;
+  left: 940px;
   border-radius: 30px;
+  border: 2px solid #583ca3;
 }
 
+.Claro:hover{
+  background-color:#d1c9e7;
+}
 .claro1{
   position: absolute;
-  left: 250px;
-  margin-top:2%; 
-  height: 300px;
+  left: 200px;
+  margin-top:6%; 
+  height: 260px;
   border-radius: 30px;
 }
 
 .claro2{
-  position: absolute;
-  left: 28px;
-  margin-top:17%; 
-  height: 300px;
+  position: relative;
+  left: 50px;
+  margin-top:65%; 
+  height:260px;
   border-radius: 30px;
 }
 
 .Evento3{
-  position: absolute;
-  margin-top:35%;
-  left: 13%;
+  position: relative;
+  margin-top:8%;
+  left: 72%;
   transform: translateX(-50%);
-  color:#5c6bc0;
-  font-size: 40px;
+  color:#18588d;
+  font-size: 30px;
   font-weight:bold;
   font-family: "Poppins", sans-serif;
 }
 
 .MulherTech{
-  background-color: #cbdcf1;
-  height: 800px;
-  margin-top: 10px;
-  display: flex;
-  width: 26%;
+  background-color: rgb(248, 248, 248);
+  position: relative;
+  height: 700px;
+  width: 24%;
+  margin-top: -37.2%;
+  left: 74.6%;
   border-radius: 30px;
+  border: 2px solid #583ca3;
 }
 
+.MulherTech:hover{
+  background-color:#d1c9e7;
+}
 .mulher1{
-  position: absolute;
-  left: 60px;
-  margin-top:2%; 
-  height: 280px;
+  position: relative;
+  left: 45px;
+  margin-top:4%; 
+  height: 250px;
   border-radius: 30px;
 }
 
 .mulher2{
-  position: absolute;
-  left: 260px;
-  margin-top:2%; 
-  height: 280px;
+  position: relative;
+  left: 65px;
+  margin-top:4%; 
+  height: 250px;
   border-radius: 30px;
 
 }
 
 .mulher3{
-  position: absolute;
-  left: 42px;
-  margin-top: 18%; 
-  height: 280px;
+  position: relative;
+  left: 45px;
+  margin-top: 5%;
+  height: 230px;
   border-radius: 30px;
 }
 
 .Evento4{
-  position: absolute;
-  margin-top:35%;
-  left: 13%;
+  position: relative;
+  margin-top: 14%;
+  left: 78%;
   transform: translateX(-50%);
-  color:#5c6bc0;
-  font-size: 40px;
+  color:#18588d;
+  font-size: 30px;
   font-weight:bold;
   font-family: "Poppins", sans-serif;
 }
